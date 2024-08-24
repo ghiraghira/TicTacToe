@@ -2,7 +2,7 @@ import Gato from "./Gato2";
 
 function App2() {
   return (
-    <div className="Title">
+    <div>
       <Gato />
     </div>
   )
