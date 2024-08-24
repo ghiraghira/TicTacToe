@@ -1,5 +1,5 @@
 import Gato from "./Gato2";
-import React,{ useEffect } from "react";
+import React, { useEffect } from "react";
 
 
 function App2() {
