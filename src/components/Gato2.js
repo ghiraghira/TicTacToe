@@ -7,11 +7,9 @@ function Gato() {
   const [empate, setEmpate] = useState(false);
   const [player, setPlayer] = useState("★");
   useEffect(() => {
-    useEffect(() => {
-      document.title = 'Tic-Tac-Toe';
-    }, []);
+    document.title = 'Tic-Tac-Toe';
     setWinner();
-  }, [empate]);
+  }, []);
 
   const Win = (combis) => {
     let jugadas = {
